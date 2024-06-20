@@ -1,0 +1,94 @@
+<DOCTYPE html>
+  <html lang="ko">
+    <head>
+      <meta charset="UTF-8" />
+      <title>네비게이션 바</title>
+      <!-- 부트스트랩 CDN 추가 -->
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      />
+      <style>
+        .bg-custom {
+          background-color: #95a0da !important;
+        }
+
+        nav a {
+          color: #fff;
+        }
+      </style>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-custom">
+        <div class="container">
+          <a class="navbar-brand" href="./campus.jsp">캠퍼스소개</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="${pageContext.request.contextPath}/classroom"
+                  >강의실</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="${pageContext.request.contextPath}/computersoftware"
+                  >학과소개</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="${pageContext.request.contextPath}/calendar"
+                  >학사일정</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="${pageContext.request.contextPath}/shuttlesBus"
+                  >셔틀버스</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="${pageContext.request.contextPath}/login"
+                  >로그인</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="${pageContext.request.contextPath}/join"
+                  >회원가입</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Q&A</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- 부트스트랩 JS 및 jQuery CDN 추가 -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+  </html>
+</DOCTYPE>

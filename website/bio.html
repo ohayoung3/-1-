@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>학과 소개</title>
+    <link
+      rel="stylesheet"
+      href="resources/css/computerSoftware.css?after"
+      type="text/css"
+    />
+  </head>
+  <style>
+    .bg-custom {
+      background-color: #95a0da !important;
+    }
+
+    nav a {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <!-- 네비게이션 바 -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-custom">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/classroom.html">강의실</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="computerSoftware.html">학과소개</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="academicCalendar.html">학사일정</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bus.html">셔틀버스</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">로그인</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="join.html">회원가입</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="qna.html">Q&A</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <h1>학과 소개</h1>
+  </header>
+  <nav>
+    <ul>
+      <li>
+        <a href="computerSoftware.html">컴퓨터소프트웨어학과</a>
+      </li>
+      <li>
+        <a href="drone.html">드론영상과</a>
+      </li>
+      <li>
+        <a href="bio.html">바이오생명과</a>
+      </li>
+    </ul>
+  </nav>
+    <main>
+      <div class="container">
+        <div class="box">
+          <h2>학과 소개</h2>
+          <p>
+            지역 바이오헬스 산업체와의 협력체제를 구축하여, 산업체 맞춤형 미러링
+            교육 실시로 우수 전문기술 인재 양성을 목표로 합니다.
+          </p>
+          <img src="resources/images/bio.png" alt="바이오 학과 소개 이미지" />
+        </div>
+        <div class="box">
+          <h2>관련 직업</h2>
+          <p>
+            생물학연구원, 식품공학기술자, 의약품영업원, 의약품품질관리원,
+            환경공학기술자 등
+          </p>
+          <a
+            href="https://youtu.be/e0ySyboJnX0?si=jjxEAertaXq84qlO"
+            target="_blank"
+          >
+            <img src="resources/images/youtubeLogo.png" alt="유튜브 로고" />
+          </a>
+        </div>
+        <div class="box">
+          <h2>진로 정보</h2>
+          <img
+            src="resources/images/bio_career_info.png"
+            alt="바이오 진로 정보 이미지"
+          />
+        </div>
+      </div>
+    </main>
+    <jsp:include page="footer.jsp"></jsp:include>
+    <script src="resources/js/introduceMajor.js" defer></script>
+  </body>
+</html>

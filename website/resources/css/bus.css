@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* Resetting Default Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #95A0DAff;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: rgb(110, 126, 207);;
+  text-align: center;
+
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 20px;
+  margin: 0 5px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+nav a:hover {
+  background-color: #95A0DAff;
+  ;
+}
+
+/* Section Styles */
+section {
+  padding: 40px;
+  background-color: #fff;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+h2 {
+  color: #95A0DAff;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 1.1em;
+  line-height: 1.8;
+}
+.shuttle-info {
+  margin-bottom: 20px;
+}
+.shuttle-info h3 {
+  color: #95A0DAff;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.shuttle-info p {
+  margin-bottom: 10px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #95A0DAff;
+  color: #fff;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #95A0DAff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+footer p {
+  font-size: 0.9em;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #dddddd;
+  }
+
+  /* 초기에 모든 탭 숨기기 */
+  .tab-content {
+    display: none;
+  }

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>학과 소개</title>
+    <link
+      rel="stylesheet"
+      href="resources/css/computerSoftware.css?after"
+      type="text/css"
+    />
+    <style>
+      .bg-custom {
+        background-color: #95a0da !important;
+      }
+
+      nav a {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 네비게이션 바 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-custom">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="classroom.html">강의실</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="computerSoftware.html">학과소개</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="academicCalendar.html">학사일정</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bus.html">셔틀버스</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">로그인</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="join.html">회원가입</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="qna.html">Q&A</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <h1>학과 소개</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="computerSoftware.html">컴퓨터소프트웨어학과</a>
+        </li>
+        <li>
+          <a href="drone.html">드론영상과</a>
+        </li>
+        <li>
+          <a href="bio.html">바이오생명과</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="box">
+          <h2>학과 소개</h2>
+          <p>
+            HTML/CSS/JavaScript, Java, Python 등 기본 코딩기술부터<br />
+            빅데이터, AI, IoT, Cloud, ChatGPT 등 최신 웹/앱 개발 기술에
+            이르기까지 핵심 소프트웨어개발교육을 제공합니다.
+          </p>
+          <img
+            src="resources/images/computerTech.png"
+            alt="컴퓨터 기술 이미지"
+          />
+        </div>
+        <div class="box">
+          <h2>관련 직업</h2>
+          <p>
+            3D프린팅전문가, 가상현실전문가, 네트워크엔지니어,
+            데이터베이스개발자, 모바일애플리케이션개발자, 반도체공학기술자,
+            빅데이터전문가, 사물인터넷전문가, 사이버교육운영자,
+            시스템소프트웨어개발자, 아이티(IT)교육강사, 응용소프트웨어개발자,
+            정보보호전문가, 컴퓨터프로그래머 등
+          </p>
+          <a
+            href="https://youtu.be/eQmmb3XIpDQ?si=D7pseeuHGn7ShClz"
+            target="_blank"
+          >
+            <img src="resources/images/youtubeLogo.png" alt="유튜브 로고" />
+          </a>
+        </div>
+        <div class="box">
+          <h2>진로 정보</h2>
+          <img
+            src="resources/images/computerCareerInfo.png"
+            alt="컴퓨터소프트웨어학과 진로 정보"
+          />
+        </div>
+      </div>
+    </main>
+    <jsp:include page="footer.jsp"></jsp:include>
+    <script src="resources/js/introduceMajor.js" defer></script>
+  </body>
+</html>

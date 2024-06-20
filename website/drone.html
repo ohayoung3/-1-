@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>학과 소개</title>
+    <link
+      rel="stylesheet"
+      href="resources/css/computerSoftware.css"
+      type="text/css"
+    />
+  </head>
+  <style>
+    .bg-custom {
+      background-color: #95a0da !important;
+    }
+
+    nav a {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <!-- 네비게이션 바 -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-custom">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/classroom.html">강의실</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="computerSoftware.html">학과소개</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="academicCalendar.html">학사일정</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bus.html">셔틀버스</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">로그인</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="join.html">회원가입</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="qna.html">Q&A</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <h1>학과 소개</h1>
+  </header>
+  <nav>
+    <ul>
+      <li>
+        <a href="computerSoftware.html">컴퓨터소프트웨어학과</a>
+      </li>
+      <li>
+        <a href="drone.html">드론영상과</a>
+      </li>
+      <li>
+        <a href="bio.html">바이오생명과</a>
+      </li>
+    </ul>
+  </nav>
+    <main>
+      <div class="container">
+        <div class="box">
+          <h2>학과 소개</h2>
+          <p>
+            인공지능을 활용한 드론영상처리 실무 응용 및 드론영상 응용 SW
+            개발자를 양성하고<br />
+            드론영상 컨텐츠 제작을 위한 영상 촬영 및 편집 전문가를 양성합니다.
+          </p>
+          <img src="resources/images/drone.png" alt="드론 이미지" />
+        </div>
+        <div class="box">
+          <h2>관련 직업</h2>
+          <p>
+            드론전문가, 드론조종사, 드론콘텐츠전문가, 무인항공기시스템개발자,
+            무인항공촬영감독 등
+          </p>
+          <a
+            href="https://youtu.be/abCnh0ToXKI?si=jFpT59HXrjkAc4X5"
+            target="_blank"
+          >
+            <img src="resources/images/youtubeLogo.png" alt="유튜브 로고" />
+          </a>
+        </div>
+        <div class="box">
+          <h2>진로 정보</h2>
+          <img
+            src="resources/images/droneCareerInfo.png"
+            alt="드론 진로 정보"
+          />
+        </div>
+      </div>
+    </main>
+    <jsp:include page="footer.jsp"></jsp:include>
+    <script src="resources/js/introduceMajor.js" defer></script>
+  </body>
+</html>

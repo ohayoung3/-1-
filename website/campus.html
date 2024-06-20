@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>대학 소개</title>
+    <!-- 부트스트랩 CDN 추가 -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./resources/css/main.css" />
+    <style>
+      .bg-custom {
+        background-color: #95a0da !important;
+      }
+
+      nav a {
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- 네비게이션 바 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-custom">
+      <div class="container">
+        <a class="navbar-brand" href="./campus.html">캠퍼스소개</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="classroom.html">강의실</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="computerSoftware.html">학과소개</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="academicCalendar.html">학사일정</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bus.html">셔틀버스</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">로그인</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="join.html">회원가입</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="qna.html">Q&A</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 주요 콘텐츠 -->
+    <div class="jumbotron">
+      <h1 class="display-4">송도 캠퍼스를 소개합니다</h1>
+      <p class="lead">
+        밝은 미래와 열정이 넘치는 송도 캠퍼스에 대해 알아보세요.
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <section id="faculty">
+            <h2 class="section-title">관련기사</h2>
+            <p>내용을 입력하세요.</p>
+          </section>
+        </div>
+        <div class="col-md-4">
+          <section id="announcements">
+            <h2 class="section-title">공지사항</h2>
+            <!-- 공지사항 내용을 추가하십시오 -->
+            <p>예) 2024년 05월 둘째주 학식 안내</p>
+            <p>예) 편의점 이용 안내</p>
+            <p>예) 드론영상과 시험 일정 안내</p>
+            <p>예) 컴퓨터 소프트웨어학과 시험 일정 안내</p>
+            <p>예) 바이오 생명과 중간고사 일정 안내</p>
+          </section>
+        </div>
+        <div class="col-md-4">
+          <section id="directions">
+            <h2 class="map">오시는길</h2>
+            <iframe
+              width="100%"
+              height="350"
+              style="border: 0"
+              loading="lazy"
+              allowfullscreen
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.422164748361!2d126.66181561536108!3d37.477539579799304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b76e36063f869%3A0x860e17b8e945e048!2z7J247LKc7J6s64yA7ZWZ6rWQ7L2U!5e0!3m2!1sko!2skr!4v1647484780713!5m2!1sko!2skr"
+            ></iframe>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-white mt-5 p-4 text-center">
+      <p>© 2024 Your University. All rights reserved.</p>
+    </footer>
+
+    <!-- 부트스트랩 및 jQuery CDN 추가 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

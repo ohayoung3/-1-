@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>재능대학교 송도캠퍼스 회원가입</title>
+    <link rel="stylesheet" href="./resources/css/join.css" />
+  </head>
+  <body>
+    <header>
+      <h1>회원가입</h1>
+    </header>
+    <div class="signup-form active" id="signup-form">
+      <h2>회원가입</h2>
+      <form
+        id="signup-form"
+        action="${pageContext.request.contextPath}/join"
+        method="post"
+      >
+        <label for="student-id">아이디</label>
+        <input type="text" id="student-id" name="student-id" required />
+
+        <label for="password"
+          >비밀번호 (영문, 특수문자를 포함한 8자리 이상)</label
+        >
+        <input type="password" id="password" name="password" required />
+
+        <label for="password">비밀번호 확인</label>
+        <input
+          type="password"
+          id="password-duilp"
+          name="password-duilp"
+          required
+        />
+
+        <label for="username">이름</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="email">이메일</label>
+        <input type="text" id="email" name="email" required />
+
+        <div id="password-error" class="error"></div>
+
+        <button type="button" onclick="buttonClick()">가입하기</button>
+      </form>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 로그인 페이지</p>
+    </footer>
+
+    <script>
+      function buttonClick() {
+        alert("회원가입에 성공하였습니다");
+        location.href = "login.html";
+      }
+    </script>
+    <!-- <script type="text/javascript" src="./resources/js/join.js"></script> -->
+  </body>
+</html>

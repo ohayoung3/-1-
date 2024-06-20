@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #95A0DAff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  nav {
+    background-color:rgb(110, 126, 207);
+    text-align: center;
+  }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px; /* 둥근 테두리 */
+}
+
+nav ul li a:hover {
+    background-color: #95A0DAff;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #95A0DAff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px 10px 0 0; 
+}
+.container {
+    display: flex; /* Flexbox 사용 */
+  }
+  
+  .box {
+    flex: 1; /* 같은 너비로 설정 */
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+ 
+  .box img{
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin : auto; 
+  }
+  

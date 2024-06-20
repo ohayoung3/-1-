@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인</title>
+    <link rel="stylesheet" href="./resources/css/login.css" />
+  </head>
+  <body>
+    <header>
+      <h1>로그인</h1>
+    </header>
+
+    <main>
+      <section id="login">
+        <h2>로그인</h2>
+        <form id="loginForm">
+          <div>
+            <label for="username">ID:</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div>
+            <label for="password">Pass Word:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div>
+            <button type="button" onclick="loginCheck()">로그인</button>
+          </div>
+          <div>
+            <button type="button" onclick="location.href='join.html'">
+              회원가입
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 로그인 페이지</p>
+    </footer>
+
+    <script>
+      function loginCheck() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        if (username === "test1" && password === "test1234") {
+          alert("로그인 성공!.");
+          window.location.href = "campus.html";
+        } else {
+          alert("ID 또는 비밀번호가 잘못되었습니다. 다시 작성해주세요.");
+        }
+      }
+    </script>
+  </body>
+</html>
